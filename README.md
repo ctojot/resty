@@ -7,9 +7,8 @@
 
 Created by: [ChristianRhey Tojot](https://github.com/ctojot).
 
-![Code Climate](Code Climate Badge IMG URL goes here)
-
 ## Description
+
 **RESTy** A browser based API testing tool.
 
 ## Installation
@@ -20,58 +19,52 @@ Run the following command to install it:
 npm install
 ```
 
-Run the generator:
+Run test:
 
 ```console
-rails generate my_example_gem:install
+npm test
 ```
-
 
 ## Usage
 
-Put the usage explanation here
-
 A form where a user:
 
+```text
 Enters a REST API Endpoint (URI)
 Selects the REST Method to use (get, post, put, delete)
 For put and post, allow the user to enter JSON to be used as the body for the request
 A button to initiate the request
+```
+
 An output section which:
+
+```text
 Displays a spinner to indicate a request is in process
+```
+
 Once a request is complete:
+
+```text
 Hide the spinner
 Display a well formatted view of the API response in 2 sections
 Headers
 Body
-A history section which:
-Shows a list of all unique, successful requests
-Allows a user to click or select one to re-populate the form so they can repeat the request
-
-
-```erb
-<%= your_code_goes @here do |f| %>
-  <%= f.input :example %>
-  <%= f.input :example %>
-  <%= f.button :example %>
-<% end %>
 ```
 
+A history section which:
 
-## Configuration
-
-This block of text should explain how to configure your application:
-
-`rails generate my_example_gem:install`
-
+```text
+Shows a list of all unique, successful requests
+Allows a user to click or select one to re-populate the form so they can repeat the request
+```
 
 ## Information
 
-Screenshots of your application below:
+Screenshots below:
 
-![Screenshot 1](http://placekitten.com/400/300)
+![]()
 
-![Screenshot 2](http://placekitten.com/400/300)
+![]()
 
 
 ## Authors
